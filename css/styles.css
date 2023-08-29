@@ -536,6 +536,14 @@ video {
     max-width : 100%;
     height    : auto;
 }
+input, textarea {
+    border: 1px solid #a8a9a9 !important;
+    width: 100% !important;
+    height: 50px !important;
+    padding: 0 15px !important;
+    border-radius: 10px !important;
+    resize: none;
+}
 
 pre {
     overflow : auto;
@@ -1989,6 +1997,7 @@ select {
 
 textarea {
     min-height : calc(8 * var(--space));
+    min-height: 180px;
 }
 
 input[type="email"]:focus,
